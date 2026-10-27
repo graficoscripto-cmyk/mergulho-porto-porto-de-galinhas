@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Mergulho Porto — Neptuno Dive">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B2545"/>
+      <stop offset="60%" stop-color="#134E8E"/>
+      <stop offset="100%" stop-color="#0D8A94"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="0.5">
+      <stop offset="0%" stop-color="#F04438"/>
+      <stop offset="100%" stop-color="#C8281D"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="57" fill="url(#bg)" stroke="#38D3DC" stroke-width="3"/>
+  <!-- Compass star -->
+  <path d="M31 35 L33 41 L39 43 L33 45 L31 51 L29 45 L23 43 L29 41 Z" fill="#38D3DC"/>
+  <!-- Scuba tank -->
+  <rect x="46" y="38" width="22" height="7" rx="3.5" transform="rotate(-8 57 41)" fill="#FFFDF9"/>
+  <!-- Red Scuba Diver -->
+  <path d="M84 44 C88 44, 91 47, 91 51 C91 55, 88 58, 84 58 C81 58, 79 56, 78 54 L96 60 C99 61, 100 63, 99 65 C98 67, 96 67, 93 66 L74 60 L56 63 L36 71 L21 78 L12 82 L19 73 L33 65 L49 56 L30 56 L16 59 L9 56 L19 50 L37 50 L56 49 C63 48, 71 47, 77 49 C78 46, 81 44, 84 44 Z" fill="url(#red)"/>
+  <rect x="85" y="48" width="6" height="4" rx="1.5" fill="#38D3DC"/>
+  <circle cx="95" cy="39" r="2.5" fill="#FFFDF9"/>
+  <circle cx="100" cy="32" r="3.2" fill="#38D3DC"/>
+  <!-- Wave -->
+  <path d="M22 86 Q41 80 60 86 T98 86" fill="none" stroke="#38D3DC" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="60" y="101" text-anchor="middle" fill="#FFFDF9" font-family="sans-serif" font-weight="800" font-size="10.5" letter-spacing="1.4">NEPTUNO</text>
+</svg>
